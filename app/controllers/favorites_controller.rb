@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class FavoritesController < ApplicationController
+class FavoritesController < ProtectedController
   before_action :set_favorite, only: %i[show update destroy]
 
   # GET /favorites

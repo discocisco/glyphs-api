@@ -1,4 +1,4 @@
-class FontsController < ApplicationController
+class FontsController < OpenReadController
   before_action :set_font, only: [:show, :update, :destroy]
 
   # GET /fonts
