@@ -1,3 +1,3 @@
 class FontSerializer < ActiveModel::Serializer
-  attributes :id, :name, :type, :description, :location
+  attributes :id, :name, :font_type, :description, :location
 end
