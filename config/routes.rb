@@ -2,6 +2,7 @@
 
 Rails.application.routes.draw do
   resources :fonts, except: %i[new edit]
+  resources :favorites, except: %i[new edit]
   # RESTful routes
   resources :examples, except: %i[new edit]
 
