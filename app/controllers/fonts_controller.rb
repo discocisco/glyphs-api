@@ -1,5 +1,7 @@
-class FontsController < OpenReadController
-  before_action :set_font, only: [:show, :update, :destroy]
+# frozen_string_literal: true
+
+class FontsController < ApplicationController
+  before_action :set_font, only: %i[show update destroy]
 
   # GET /fonts
   def index
@@ -39,13 +41,14 @@ class FontsController < OpenReadController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_font
-      @font = Font.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def font_params
-      params.require(:font).permit(:name, :font_type, :description, :location)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_font
+    @font = Font.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def font_params
+    params.require(:font).permit(:name, :font_type, :description, :location)
+  end
 end
