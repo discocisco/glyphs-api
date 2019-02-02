@@ -49,6 +49,6 @@ class FontsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def font_params
-    params.require(:font).permit(:name, :font_type, :description, :location)
+    params.require(:font).permit(:name, :font_type, :location)
   end
 end

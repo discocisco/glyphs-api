@@ -8,7 +8,6 @@ curl "http://localhost:4741/fonts" \
     "font": {
       "name": "'"${NAME}"'",
       "font_type": "'"${FONT_TYPE}"'",
-      "description": "'"${DESCRIPTION}"'",
       "location": "'"${LOCATION}"'"
     }
   }'
