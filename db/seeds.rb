@@ -18,7 +18,7 @@ Font.create(name: 'Chelsea Market', font_type: 'Display', location: 'https://fon
 Font.create(name: 'Clicker Script', font_type: 'Handwriting', location: 'https://fonts.google.com/specimen/Clicker+Script')
 Font.create(name: 'Fascinate Inline', font_type: 'Display', location: 'https://fonts.google.com/specimen/Fascinate+Inline')
 Font.create(name: 'Fondamento', font_type: 'Handwriting', location: 'https://fonts.google.com/specimen/Fondamento')
-Font.create(name: 'Major Mono+Display', font_type: 'Monospace', location: 'https://fonts.google.com/specimen/Major+Mono+Display')
+Font.create(name: 'Major Mono Display', font_type: 'Monospace', location: 'https://fonts.google.com/specimen/Major+Mono+Display')
 Font.create(name: 'Monofett', font_type: 'Display', location: 'https://fonts.google.com/specimen/Monofett')
 Font.create(name: 'Montserrat Subrayada', font_type: 'Sans Serif', location: 'https://fonts.google.com/specimen/Montserrat+Subrayada')
 Font.create(name: 'Noto Serif SC', font_type: 'Serif', location: 'https://fonts.google.com/specimen/Noto+Serif+SC')
